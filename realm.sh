@@ -270,6 +270,7 @@ list_forward() {
         echo "${index}. 本地监听: ${listen_port} --> 远程目标: ${remote_port}"
         let index+=1
     done
+    read
 }
 
 # 删除转发规则的函数
