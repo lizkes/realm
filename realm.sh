@@ -127,8 +127,6 @@ show_menu() {
     clear
     update_realm_status
     check_realm_service_status
-    update_panel_status
-    check_panel_service_status
     echo "欢迎使用realm一键转发脚本"
     echo "================="
     echo "1. 部署环境"
