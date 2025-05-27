@@ -190,6 +190,7 @@ deploy_realm() {
 
     wget -O "/root/.realm/realm-${_version}.tar.gz" "$download_url"
     tar -xvf "/root/.realm/realm-${_version}.tar.gz" -C /root/.realm/
+    rm -rf "/root/.realm/realm-${_version}.tar.gz"
     chmod +x /root/.realm/realm
 
     # 创建 config.toml 模板
